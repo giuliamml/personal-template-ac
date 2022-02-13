@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
 
-    <title>Avvocato Augusto Cassini</title>
+    <title>Avv. Augusto Cassini</title>
   </head>
   <body>
     <div class="landing-page-wrapper">
@@ -27,7 +27,7 @@
         </ul>
       </header>
 
-      <div class="burger-menu" >
+      <div class="burger-menu">
         <div id="burger-menu-container" onclick="menuOpen()">
           <div class="bar1"></div>
           <div class="bar2"></div>
@@ -36,10 +36,9 @@
 
         <div class="burger-menu-items" id="homepage">
           <ul>
-            <li><a href="../">Home </a></li>
-            <li><a href="../about">About </a></li>
-            <!-- <li><span>02</span><a href="./journal.html">Journal </a></li> -->
-            <li><a href="../projects">Projects </a></li>
+            <li><a href="./chi-sono/">Chi sono </a></li>
+            <li><a href="./aree-di-competenza/">Aree di competenza </a></li>
+            <li><a href="./contatti/">Contatti</a></li>
           </ul>
         </div>
       </div>
@@ -52,10 +51,10 @@
         <div class="navigation">
           <ul>
             <li>
-              <a href="./chi-sono">chi sono</a>
+              <a href="#chi-sono">chi sono</a>
             </li>
-            <li><a href="./aree-di-competenza">aree di compotenza</a></li>
-            <li><a href="./contatti">contatti</a></li>
+            <li><a href="#aree-di-competenza">aree di compotenza</a></li>
+            <li><a href="#contatti">contatti</a></li>
           </ul>
         </div>
 
@@ -64,16 +63,16 @@
             Avvocato <br />
             Augusto Cassini
           </h1>
+          <h3>"Ius est ars boni et aequi" - Celso, II secolo d.C</h3>
           <h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-            doloremque maiores sint iste quas beatae numquam unde dolore a
-            libero minus dolorum accusantium esse blanditiis quis.
+            "Il diritto è l'arte di ciò che è buono ed equo" - Celso, II secolo
+            d.C
           </h3>
           <button>richiedi consulenza</button>
         </div>
       </div>
 
-      <div class="intro-section">
+      <div class="intro-section" id="chi-sono">
         <div class="intro-section-content">
           <div>
             <img src="./images/portrait.png" alt="" />
@@ -91,12 +90,12 @@
           </div>
         </div>
       </div>
-      <div class="competences-section">
+      <div class="competences-section" id="aree-di-competenza">
         <h2>Aree di Competenza</h2>
         <div class="competences-wrapper">
           <div class="single-competence-wrapper">
             <div class="competence-icon">
-              <img src="./images/icon.png" alt="" />
+              <img src="./images/icons/scale.png" alt="" />
             </div>
             <div class="competence-text">
               <h4>Competence Title</h4>
@@ -105,7 +104,7 @@
           </div>
           <div class="single-competence-wrapper">
             <div class="competence-icon">
-              <img src="./images/icon.png" alt="" />
+              <img src="./images/icons/law.png" alt="" />
             </div>
             <div class="competence-text">
               <h4>Competence Title</h4>
@@ -114,7 +113,7 @@
           </div>
           <div class="single-competence-wrapper">
             <div class="competence-icon">
-              <img src="./images/icon.png" alt="" />
+              <img src="./images/icons/family.png" alt="" />
             </div>
             <div class="competence-text">
               <h4>Competence Title</h4>
@@ -124,7 +123,7 @@
         </div>
       </div>
 
-      <section class="location-section">
+      <section class="location-section" id="contatti">
         <h2 id="mobile">Recapiti</h2>
 
         <div>
@@ -267,6 +266,7 @@
       </div>
       <div class="copyrights">
         <p>Augusto Cassini © 2022</p>
+        <p>P. Iva 01377990930</p>
       </div>
     </div>
   </body>

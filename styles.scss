@@ -37,7 +37,6 @@ $avenir: "Avenir";
   font-style: normal;
   text-align: left;
   font-weight: lighter;
-
 }
 
 @mixin p {
@@ -48,6 +47,7 @@ $avenir: "Avenir";
   font-weight: 400;
   line-height: 22px;
   text-align: left;
+  font-weight: lighter;
 }
 @mixin buttonPrimary {
   font-size: 21px;
@@ -313,6 +313,8 @@ body {
                 position: relative;
                 left: 50%;
                 transform: translateX(-50%);
+                max-width: 64px;
+                max-height: 64px;
               }
             }
 
@@ -325,7 +327,6 @@ body {
                 line-height: 32px;
                 margin: 0;
                 font-weight: lighter;
-
               }
               p {
                 @include p;
@@ -354,7 +355,7 @@ body {
         position: relative;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 50px 0;
+        padding: 50px 0;
         max-width: 1440px;
         position: relative;
         left: 50%;
@@ -629,11 +630,14 @@ body {
         background-color: $dark-blue;
         padding: 5px 0;
         padding-right: 70px;
+        display: flex;
+        justify-content: flex-end;
 
         p {
           @include p;
           color: $white;
           text-align: right;
+          padding: 0 30px;
         }
       }
     }
@@ -647,7 +651,6 @@ body {
         flex-direction: row;
         justify-content: space-between;
         background: $dark-blue;
-        height: 10vh;
         position: relative;
 
         ul {
@@ -787,6 +790,7 @@ body {
 
           h3 {
             @include h3;
+            font-size: 16px;
           }
           button {
             display: none;
@@ -867,7 +871,7 @@ body {
           transform: translate(-50%);
 
           .single-competence-wrapper {
-            background-color: transparent;
+            background-color: $dark-blue;
             border: 1px solid $bronze;
             display: flex;
             justify-content: space-evenly;
@@ -877,11 +881,12 @@ body {
             margin: 20px 50px;
 
             .competence-icon {
-              margin: 5%;
               img {
                 position: relative;
                 left: 50%;
                 transform: translateX(-50%);
+                max-width: 64px;
+                max-height: 64px;
               }
             }
 
@@ -889,13 +894,14 @@ body {
               margin: 0 5%;
               h4 {
                 font-family: $palatino;
-                color: $dark-blue;
+                color: $white;
                 font-size: 24px;
                 line-height: 32px;
                 margin: 0;
               }
               p {
                 @include p;
+                color: $white;
               }
             }
           }
@@ -1084,12 +1090,12 @@ body {
       .copyrights {
         background-color: $dark-blue;
         padding: 5px 0;
-        padding-right: 70px;
+        padding-left: 20px;
 
         p {
           @include p;
           color: $white;
-          text-align: right;
+          text-align: left;
         }
       }
     }
