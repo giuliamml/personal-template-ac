@@ -50,6 +50,9 @@ body {
     height: 20px;
     padding: 0 5px;
   }
+  body .landing-page-wrapper .burger-menu {
+    display: none;
+  }
   body .landing-page-wrapper .hero-section {
     background-image: url(./images/law-image.jpg);
     background-repeat: no-repeat;
@@ -122,6 +125,7 @@ body {
     line-height: 70px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
   }
   body .landing-page-wrapper .hero-section .hero-text-wrapper h3 {
     color: #fff;
@@ -184,6 +188,7 @@ body {
     line-height: 55px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
   }
   body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text p {
     font-family: "Avenir";
@@ -222,6 +227,7 @@ body {
     line-height: 55px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
     text-align: center;
     margin: 0;
   }
@@ -262,6 +268,7 @@ body {
     font-size: 24px;
     line-height: 32px;
     margin: 0;
+    font-weight: lighter;
   }
   body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-text p {
     font-family: "Avenir";
@@ -318,6 +325,7 @@ body {
     line-height: 55px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
   }
   body .landing-page-wrapper .location-section .information ul {
     padding: 0;
@@ -378,6 +386,7 @@ body {
     line-height: 70px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
   }
   body .landing-page-wrapper .message-section .content p {
     font-family: "Avenir";
@@ -440,6 +449,7 @@ body {
     line-height: 55px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
   }
   body .landing-page-wrapper .customer-revs .slideshow-container .mySlides {
     display: none;
@@ -541,6 +551,7 @@ body .landing-page-wrapper .customer-revs .slideshow-container .next:hover {
     line-height: 55px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
     font-size: 24px;
     text-transform: capitalize;
   }
@@ -565,6 +576,7 @@ body .landing-page-wrapper .customer-revs .slideshow-container .next:hover {
     line-height: 55px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
     font-size: 24px;
     text-transform: capitalize;
   }
@@ -747,6 +759,7 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     line-height: 70px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
     font-size: 36px;
   }
   body .landing-page-wrapper .hero-section .hero-text-wrapper h3 {
@@ -797,6 +810,7 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     line-height: 55px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
     margin: 0;
     font-size: 36px;
   }
@@ -840,6 +854,7 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     line-height: 55px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
     text-align: left;
     margin: 0;
     font-size: 36px;
@@ -906,6 +921,7 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     line-height: 55px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
     margin: 0;
     font-size: 36px;
     margin-left: 45px;
@@ -982,6 +998,7 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     line-height: 70px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
     font-size: 36px;
     line-height: 48px;
   }
@@ -1040,6 +1057,7 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     line-height: 55px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
     font-size: 24px;
     text-transform: capitalize;
   }
@@ -1064,6 +1082,7 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     line-height: 55px;
     font-style: normal;
     text-align: left;
+    font-weight: lighter;
     font-size: 24px;
     text-transform: capitalize;
   }
