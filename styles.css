@@ -1,0 +1,1115 @@
+@font-face {
+  font-family: "Palatino";
+  src: url(./fonts/Palatino.ttf);
+}
+@font-face {
+  font-family: "Avenir";
+  src: url(./fonts/Avenir.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+@media only screen and (min-width: 481px) {
+  body .landing-page-wrapper header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #012d4e;
+    height: 5vh;
+  }
+  body .landing-page-wrapper header ul {
+    display: inline-flex;
+  }
+  body .landing-page-wrapper header ul li {
+    list-style: none;
+    display: flex;
+    padding: 0 20px;
+    flex-direction: column;
+  }
+  body .landing-page-wrapper header ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+    cursor: pointer;
+    font-family: "Avenir";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26.4px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  body .landing-page-wrapper header ul li a img {
+    width: 20px;
+    height: 20px;
+    padding: 0 5px;
+  }
+  body .landing-page-wrapper .hero-section {
+    background-image: url(./images/law-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 95vh;
+    background-position-y: 60%;
+  }
+  body .landing-page-wrapper .hero-section .overlay {
+    background-color: #012d4e;
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  body .landing-page-wrapper .hero-section .navigation {
+    position: relative;
+    width: 100%;
+  }
+  body .landing-page-wrapper .hero-section .navigation ul {
+    display: inline;
+    float: right;
+    margin-right: 70px;
+  }
+  body .landing-page-wrapper .hero-section .navigation ul li {
+    display: inline;
+    margin: 0 10px;
+    position: relative;
+  }
+  body .landing-page-wrapper .hero-section .navigation ul li a {
+    color: white;
+    font-family: "Avenir";
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+  }
+  body .landing-page-wrapper .hero-section .navigation ul li a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    border-radius: 5px;
+    height: 0.05em;
+    bottom: 0;
+    left: 0;
+    background: currentcolor;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  body .landing-page-wrapper .hero-section .navigation ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  body .landing-page-wrapper .hero-section .hero-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin-left: 145px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  body .landing-page-wrapper .hero-section .hero-text-wrapper h1 {
+    font-family: "Palatino";
+    color: #fff;
+    font-size: 64px;
+    line-height: 70px;
+    font-style: normal;
+    text-align: left;
+  }
+  body .landing-page-wrapper .hero-section .hero-text-wrapper h3 {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Avenir";
+    text-align: left;
+    line-height: 32px;
+  }
+  body .landing-page-wrapper .hero-section .hero-text-wrapper button {
+    font-size: 21px;
+    line-height: 30px;
+    font-family: "Avenir";
+    width: 200px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #a9cee8;
+    color: #a9cee8;
+    margin: 1em 0;
+  }
+  body .landing-page-wrapper .hero-section .hero-text-wrapper button:hover {
+    color: #012d4e;
+    background-color: #a9cee8;
+    border: 1px solid #a9cee8;
+    cursor: pointer;
+  }
+  body .landing-page-wrapper .intro-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px 160px;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content div {
+    width: 100%;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content div img {
+    height: auto;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 46px;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text h2 {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 48px;
+    line-height: 55px;
+    font-style: normal;
+    text-align: left;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text p {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text button {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Avenir";
+    width: 150px;
+    height: 40px;
+    background-color: #bc9d71;
+    border: 1px solid #bc9d71;
+    color: #fff;
+    margin: 1em 0;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text button:hover {
+    color: #bc9d71;
+    background-color: transparent;
+    border: 1px solid #bc9d71;
+    cursor: pointer;
+  }
+  body .landing-page-wrapper .competences-section {
+    background-color: #bc9d711a;
+    padding: 100px 86px;
+  }
+  body .landing-page-wrapper .competences-section h2 {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 48px;
+    line-height: 55px;
+    font-style: normal;
+    text-align: left;
+    text-align: center;
+    margin: 0;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin: 5% 0;
+    max-width: 1440px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper {
+    background-color: transparent;
+    border: 1px solid #bc9d71;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 330px;
+    padding: 0 5%;
+    margin: 0 50px;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-icon {
+    margin: 5%;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-icon img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-text {
+    margin: 0 5%;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-text h4 {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-text p {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper:hover {
+    background-color: #bc9d71;
+    transition: 0.4s;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper:hover .competence-text h4 {
+    color: #fff;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper:hover .competence-text p {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #fff;
+  }
+  body .landing-page-wrapper .location-section {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0;
+    max-width: 1440px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  body .landing-page-wrapper .location-section #mobile {
+    display: none;
+  }
+  body .landing-page-wrapper .location-section div {
+    display: flex;
+    justify-content: center;
+  }
+  body .landing-page-wrapper .location-section .information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  body .landing-page-wrapper .location-section .information h2 {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 48px;
+    line-height: 55px;
+    font-style: normal;
+    text-align: left;
+  }
+  body .landing-page-wrapper .location-section .information ul {
+    padding: 0;
+    margin: 0;
+  }
+  body .landing-page-wrapper .location-section .information ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  body .landing-page-wrapper .location-section .information ul li a {
+    color: #272b2e;
+    text-decoration: none;
+    text-transform: initial;
+    cursor: pointer;
+    font-family: "Avenir";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26.4px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  body .landing-page-wrapper .location-section .information ul li a img {
+    width: 20px;
+    height: 20px;
+    padding: 0 15px;
+  }
+  body .landing-page-wrapper .message-section {
+    background-image: url("./images/law-image.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position-y: 50%;
+  }
+  body .landing-page-wrapper .message-section .overlay {
+    background-color: #012d4e;
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+    width: 100vw;
+    height: 100%;
+  }
+  body .landing-page-wrapper .message-section .content {
+    position: relative;
+    padding: 60px 0;
+    max-width: 1440px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 60%;
+  }
+  body .landing-page-wrapper .message-section .content h1 {
+    font-family: "Palatino";
+    color: #fff;
+    font-size: 64px;
+    line-height: 70px;
+    font-style: normal;
+    text-align: left;
+  }
+  body .landing-page-wrapper .message-section .content p {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #fff;
+  }
+  body .landing-page-wrapper .message-section .content button {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Avenir";
+    width: 150px;
+    height: 40px;
+    background-color: #bc9d71;
+    border: 1px solid #bc9d71;
+    color: #fff;
+    margin: 1em 0;
+  }
+  body .landing-page-wrapper .message-section .content button:hover {
+    color: #bc9d71;
+    background-color: transparent;
+    border: 1px solid #bc9d71;
+    cursor: pointer;
+  }
+  body .landing-page-wrapper .customer-revs {
+    padding: 20px 0;
+    position: relative;
+    /* slideshow container */
+    /* the dot/bullet/indicator container */
+    /* the dots/bullets/indicators */
+    /* add bg color to the active dot/circle */
+  }
+  body .landing-page-wrapper .customer-revs .overlay {
+    background: #bc9d71;
+    opacity: 0.15;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+  }
+  body .landing-page-wrapper .customer-revs .slideshow-container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1440px;
+    position: relative;
+    width: 60%;
+    /* Slides */
+    /* next & previous buttons */
+    /* position the "next button" to the right */
+    /* on hover, add a black bg color with a little bit see-through */
+  }
+  body .landing-page-wrapper .customer-revs .slideshow-container h2 {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 48px;
+    line-height: 55px;
+    font-style: normal;
+    text-align: left;
+  }
+  body .landing-page-wrapper .customer-revs .slideshow-container .mySlides {
+    display: none;
+    padding: 2rem 5rem 0 5rem;
+    text-align: center;
+    min-height: 250px;
+  }
+  body .landing-page-wrapper .customer-revs .slideshow-container .mySlides .mySlidesContainer {
+    min-height: 5rem;
+    padding: 3.5rem 2.5rem 2rem 3.5rem;
+  }
+  body .landing-page-wrapper .customer-revs .slideshow-container .mySlides .mySlidesContainer q {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    font-size: 18px;
+  }
+  body .landing-page-wrapper .customer-revs .slideshow-container .mySlides p {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-align: right;
+    font-style: italic;
+  }
+  body .landing-page-wrapper .customer-revs .slideshow-container .prev,
+body .landing-page-wrapper .customer-revs .slideshow-container .next {
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    width: auto;
+    margin-top: -1.875rem;
+    padding: 1rem;
+    color: #bc9d71;
+    font-weight: bold;
+    font-size: 2rem;
+    user-select: none;
+    transition: 0.4s;
+  }
+  body .landing-page-wrapper .customer-revs .slideshow-container .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px;
+  }
+  body .landing-page-wrapper .customer-revs .slideshow-container .prev:hover,
+body .landing-page-wrapper .customer-revs .slideshow-container .next:hover {
+    color: #012d4e;
+    text-decoration: none;
+  }
+  body .landing-page-wrapper .customer-revs .dot-container {
+    text-align: center;
+    padding: 0 1.25rem;
+    margin: 20px 0;
+  }
+  body .landing-page-wrapper .customer-revs .dot {
+    height: 0.9375rem;
+    width: 0.9375rem;
+    margin: 0 2px;
+    background-color: transparent;
+    border: 1px solid #bc9d71;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.4s ease;
+  }
+  body .landing-page-wrapper .customer-revs .active {
+    background-color: #bc9d71;
+    border: 1px solid #bc9d71;
+  }
+  body .landing-page-wrapper .footer .navigation {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5% 0;
+  }
+  body .landing-page-wrapper .footer .navigation .overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    background: #bc9d71;
+    opacity: 0.15;
+  }
+  body .landing-page-wrapper .footer .navigation .location {
+    margin: 0 20px;
+    z-index: 1111;
+  }
+  body .landing-page-wrapper .footer .navigation .location h2 {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 48px;
+    line-height: 55px;
+    font-style: normal;
+    text-align: left;
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+  body .landing-page-wrapper .footer .navigation .location p {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+  body .landing-page-wrapper .footer .navigation .contacts {
+    margin: 0 20px;
+    padding-right: 70px;
+    z-index: 1111;
+  }
+  body .landing-page-wrapper .footer .navigation .contacts h2 {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 48px;
+    line-height: 55px;
+    font-style: normal;
+    text-align: left;
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+  body .landing-page-wrapper .footer .navigation .contacts ul {
+    padding: 0;
+  }
+  body .landing-page-wrapper .footer .navigation .contacts ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  body .landing-page-wrapper .footer .navigation .contacts ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+    cursor: pointer;
+    font-family: "Avenir";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26.4px;
+    display: flex;
+    align-items: center;
+    color: #272b2e;
+  }
+  body .landing-page-wrapper .footer .navigation .contacts ul li a img {
+    width: 20px;
+    height: 20px;
+    padding: 0 5px;
+  }
+  body .landing-page-wrapper .copyrights {
+    background-color: #012d4e;
+    padding: 5px 0;
+    padding-right: 70px;
+  }
+  body .landing-page-wrapper .copyrights p {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #fff;
+    text-align: right;
+  }
+}
+@media only screen and (max-width: 480px) {
+  body .landing-page-wrapper {
+    width: 100vw;
+  }
+  body .landing-page-wrapper header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #012d4e;
+    height: 10vh;
+    position: relative;
+  }
+  body .landing-page-wrapper header ul {
+    margin: 0;
+  }
+  body .landing-page-wrapper header ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  body .landing-page-wrapper header ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+    cursor: pointer;
+    font-family: "Avenir";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 26.4px;
+    display: flex;
+    align-items: center;
+  }
+  body .landing-page-wrapper header ul li a img {
+    width: 20px;
+    height: 20px;
+    padding: 0 10px;
+  }
+  body .landing-page-wrapper .burger-menu {
+    position: absolute;
+    right: 5%;
+    width: 100%;
+  }
+  body .landing-page-wrapper .burger-menu #burger-menu-container {
+    display: inline-block;
+    cursor: pointer;
+    right: 5%;
+    top: 20px;
+    position: absolute;
+    z-index: 11;
+  }
+  body .landing-page-wrapper .burger-menu #burger-menu-container .bar1,
+body .landing-page-wrapper .burger-menu #burger-menu-container .bar2,
+body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
+    width: 35px;
+    height: 1px;
+    background-color: #bc9d71;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  body .landing-page-wrapper .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-3px, 2px);
+  }
+  body .landing-page-wrapper .change .bar2 {
+    opacity: 0;
+  }
+  body .landing-page-wrapper .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+  body .landing-page-wrapper .burger-menu-items#homepage {
+    display: none;
+  }
+  body .landing-page-wrapper .burger-menu-items#homepage ul {
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    list-style-type: none;
+  }
+  body .landing-page-wrapper .burger-menu-items#homepage ul li {
+    padding: 1%;
+    text-align: left;
+    margin: 10px 0;
+  }
+  body .landing-page-wrapper .burger-menu-items#homepage ul li a {
+    left: 10%;
+    position: relative;
+    display: inline;
+    color: #bc9d71;
+    font-weight: lighter;
+    font-size: 36px;
+    line-height: 1;
+    text-decoration: none;
+    font-family: "Avenir";
+    text-align: center;
+  }
+  body .landing-page-wrapper .hero-section {
+    background-image: url(./images/law-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 90vh;
+    background-position-y: 60%;
+    background-position-x: 50%;
+  }
+  body .landing-page-wrapper .hero-section .overlay {
+    background-color: #012d4e;
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  body .landing-page-wrapper .hero-section .navigation {
+    display: none;
+  }
+  body .landing-page-wrapper .hero-section .hero-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+    margin: 0 45px;
+  }
+  body .landing-page-wrapper .hero-section .hero-text-wrapper h1 {
+    font-family: "Palatino";
+    color: #fff;
+    font-size: 64px;
+    line-height: 70px;
+    font-style: normal;
+    text-align: left;
+    font-size: 36px;
+  }
+  body .landing-page-wrapper .hero-section .hero-text-wrapper h3 {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Avenir";
+    text-align: left;
+    line-height: 32px;
+  }
+  body .landing-page-wrapper .hero-section .hero-text-wrapper button {
+    display: none;
+  }
+  body .landing-page-wrapper .intro-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 50px 0;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content {
+    display: flex;
+    flex-direction: column;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content div {
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content div img {
+    height: auto;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text h2 {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 48px;
+    line-height: 55px;
+    font-style: normal;
+    text-align: left;
+    margin: 0;
+    font-size: 36px;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text p {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text button {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Avenir";
+    width: 150px;
+    height: 40px;
+    background-color: #bc9d71;
+    border: 1px solid #bc9d71;
+    color: #fff;
+    margin: 1em 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text button:hover {
+    color: #bc9d71;
+    background-color: transparent;
+    border: 1px solid #bc9d71;
+    cursor: pointer;
+  }
+  body .landing-page-wrapper .competences-section {
+    background-color: #bc9d711a;
+    padding: 50px 0;
+  }
+  body .landing-page-wrapper .competences-section h2 {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 48px;
+    line-height: 55px;
+    font-style: normal;
+    text-align: left;
+    text-align: left;
+    margin: 0;
+    font-size: 36px;
+    margin: 0 45px;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper {
+    background-color: transparent;
+    border: 1px solid #bc9d71;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 330px;
+    padding: 0 5%;
+    margin: 20px 50px;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-icon {
+    margin: 5%;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-icon img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-text {
+    margin: 0 5%;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-text h4 {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+  }
+  body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-text p {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+  body .landing-page-wrapper .location-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 50px 0;
+  }
+  body .landing-page-wrapper .location-section #mobile {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 48px;
+    line-height: 55px;
+    font-style: normal;
+    text-align: left;
+    margin: 0;
+    font-size: 36px;
+    margin-left: 45px;
+  }
+  body .landing-page-wrapper .location-section div {
+    display: flex;
+    justify-content: center;
+    padding: 20px 45px;
+  }
+  body .landing-page-wrapper .location-section .information {
+    display: flex;
+    flex-direction: column;
+  }
+  body .landing-page-wrapper .location-section .information h2 {
+    display: none;
+  }
+  body .landing-page-wrapper .location-section .information ul {
+    padding: 0;
+    margin: 0;
+  }
+  body .landing-page-wrapper .location-section .information ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  body .landing-page-wrapper .location-section .information ul li a {
+    color: #272b2e;
+    text-decoration: none;
+    text-transform: initial;
+    cursor: pointer;
+    font-family: "Avenir";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26.4px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  body .landing-page-wrapper .location-section .information ul li a img {
+    width: 20px;
+    height: 20px;
+    padding: 0 15px;
+  }
+  body .landing-page-wrapper .customer-revs {
+    display: none;
+  }
+  body .landing-page-wrapper .message-section {
+    background-image: url("./images/law-image.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    padding: 50px 0;
+  }
+  body .landing-page-wrapper .message-section .overlay {
+    background-color: #012d4e;
+    position: absolute;
+    top: 0;
+    opacity: 0.4;
+    width: 100vw;
+    height: 100%;
+  }
+  body .landing-page-wrapper .message-section .content {
+    position: relative;
+    margin: 0 45px;
+  }
+  body .landing-page-wrapper .message-section .content h1 {
+    font-family: "Palatino";
+    color: #fff;
+    font-size: 64px;
+    line-height: 70px;
+    font-style: normal;
+    text-align: left;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  body .landing-page-wrapper .message-section .content p {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #fff;
+  }
+  body .landing-page-wrapper .message-section .content button {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: "Avenir";
+    width: 150px;
+    height: 40px;
+    background-color: #bc9d71;
+    border: 1px solid #bc9d71;
+    color: #fff;
+    margin: 1em 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  body .landing-page-wrapper .message-section .content button:hover {
+    color: #bc9d71;
+    background-color: transparent;
+    border: 1px solid #bc9d71;
+    cursor: pointer;
+  }
+  body .landing-page-wrapper .footer .navigation {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0;
+  }
+  body .landing-page-wrapper .footer .navigation .overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    background: #bc9d71;
+    opacity: 0.15;
+  }
+  body .landing-page-wrapper .footer .navigation .location {
+    margin: 0 20px;
+    z-index: 1111;
+  }
+  body .landing-page-wrapper .footer .navigation .location h2 {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 48px;
+    line-height: 55px;
+    font-style: normal;
+    text-align: left;
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+  body .landing-page-wrapper .footer .navigation .location p {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+  }
+  body .landing-page-wrapper .footer .navigation .contacts {
+    margin: 0 20px;
+    padding-right: 70px;
+    z-index: 1111;
+  }
+  body .landing-page-wrapper .footer .navigation .contacts h2 {
+    font-family: "Palatino";
+    color: #012d4e;
+    font-size: 48px;
+    line-height: 55px;
+    font-style: normal;
+    text-align: left;
+    font-size: 24px;
+    text-transform: capitalize;
+  }
+  body .landing-page-wrapper .footer .navigation .contacts ul {
+    padding: 0;
+  }
+  body .landing-page-wrapper .footer .navigation .contacts ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  body .landing-page-wrapper .footer .navigation .contacts ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+    cursor: pointer;
+    font-family: "Avenir";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26.4px;
+    display: flex;
+    align-items: center;
+    color: #272b2e;
+  }
+  body .landing-page-wrapper .footer .navigation .contacts ul li a img {
+    width: 20px;
+    height: 20px;
+    padding: 0 5px;
+  }
+  body .landing-page-wrapper .copyrights {
+    background-color: #012d4e;
+    padding: 5px 0;
+    padding-right: 70px;
+  }
+  body .landing-page-wrapper .copyrights p {
+    font-family: "Avenir";
+    color: #272b2e;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #fff;
+    text-align: right;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
