@@ -133,23 +133,33 @@ body {
     font-family: "Avenir";
     text-align: left;
     line-height: 32px;
+    margin: 0;
+  }
+  body .landing-page-wrapper .hero-section .hero-text-wrapper h3 q {
+    font-style: italic;
   }
   body .landing-page-wrapper .hero-section .hero-text-wrapper button {
     font-size: 21px;
     line-height: 30px;
     font-family: "Avenir";
-    width: 200px;
     height: 45px;
-    background-color: transparent;
+    width: max-content;
+    background-color: #a9cee8;
     border: 1px solid #a9cee8;
-    color: #a9cee8;
+    color: #012d4e;
     margin: 1em 0;
   }
   body .landing-page-wrapper .hero-section .hero-text-wrapper button:hover {
-    color: #012d4e;
-    background-color: #a9cee8;
+    color: #a9cee8;
+    background-color: transparent;
     border: 1px solid #a9cee8;
     cursor: pointer;
+  }
+  body .landing-page-wrapper .hero-section .hero-text-wrapper button a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 10px 5px;
   }
   body .landing-page-wrapper .intro-section {
     width: 100%;
@@ -204,8 +214,8 @@ body {
     font-size: 18px;
     line-height: 30px;
     font-family: "Avenir";
-    width: 150px;
     height: 40px;
+    width: max-content;
     background-color: #bc9d71;
     border: 1px solid #bc9d71;
     color: #fff;
@@ -216,6 +226,12 @@ body {
     background-color: transparent;
     border: 1px solid #bc9d71;
     cursor: pointer;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text button a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 10px 5px;
   }
   body .landing-page-wrapper .competences-section {
     background-color: #bc9d711a;
@@ -408,8 +424,8 @@ body {
     font-size: 18px;
     line-height: 30px;
     font-family: "Avenir";
-    width: 150px;
     height: 40px;
+    width: max-content;
     background-color: #bc9d71;
     border: 1px solid #bc9d71;
     color: #fff;
@@ -420,6 +436,12 @@ body {
     background-color: transparent;
     border: 1px solid #bc9d71;
     cursor: pointer;
+  }
+  body .landing-page-wrapper .message-section .content button a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 10px 5px;
   }
   body .landing-page-wrapper .customer-revs {
     padding: 20px 0;
@@ -782,6 +804,9 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     line-height: 32px;
     font-size: 16px;
   }
+  body .landing-page-wrapper .hero-section .hero-text-wrapper h3 q {
+    font-style: italic;
+  }
   body .landing-page-wrapper .hero-section .hero-text-wrapper button {
     display: none;
   }
@@ -841,8 +866,8 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     font-size: 18px;
     line-height: 30px;
     font-family: "Avenir";
-    width: 150px;
     height: 40px;
+    width: max-content;
     background-color: #bc9d71;
     border: 1px solid #bc9d71;
     color: #fff;
@@ -856,6 +881,12 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     background-color: transparent;
     border: 1px solid #bc9d71;
     cursor: pointer;
+  }
+  body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text button a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 10px 5px;
   }
   body .landing-page-wrapper .competences-section {
     background-color: #bc9d711a;
@@ -1032,8 +1063,8 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     font-size: 18px;
     line-height: 30px;
     font-family: "Avenir";
-    width: 150px;
     height: 40px;
+    width: max-content;
     background-color: #bc9d71;
     border: 1px solid #bc9d71;
     color: #fff;
@@ -1047,6 +1078,12 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     background-color: transparent;
     border: 1px solid #bc9d71;
     cursor: pointer;
+  }
+  body .landing-page-wrapper .message-section .content button a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 10px 5px;
   }
   body .landing-page-wrapper .footer .navigation {
     position: relative;

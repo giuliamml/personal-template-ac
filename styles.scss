@@ -53,18 +53,25 @@ $avenir: "Avenir";
   font-size: 21px;
   line-height: 30px;
   font-family: $avenir;
-  width: 200px;
   height: 45px;
-  background-color: transparent;
+  width: max-content;
+  background-color: $light-blue;
   border: 1px solid $light-blue;
-  color: $light-blue;
+  color: $dark-blue;
   margin: 1em 0;
 
   &:hover {
-    color: $dark-blue;
-    background-color: $light-blue;
+    color: $light-blue;
+    background-color: transparent;
     border: 1px solid $light-blue;
     cursor: pointer;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 10px 5px;
   }
 }
 
@@ -72,8 +79,8 @@ $avenir: "Avenir";
   font-size: 18px;
   line-height: 30px;
   font-family: $avenir;
-  width: 150px;
   height: 40px;
+  width: max-content;
   background-color: $bronze;
   border: 1px solid $bronze;
   color: $white;
@@ -85,6 +92,13 @@ $avenir: "Avenir";
     border: 1px solid $bronze;
     cursor: pointer;
   }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 10px 5px;
+  }
 }
 
 @mixin h3 {
@@ -93,6 +107,10 @@ $avenir: "Avenir";
   font-family: $avenir;
   text-align: left;
   line-height: 32px;
+
+  q {
+    font-style: italic;
+  }
 }
 
 body {
@@ -224,6 +242,7 @@ body {
 
           h3 {
             @include h3;
+            margin: 0;
           }
           button {
             @include buttonPrimary;
