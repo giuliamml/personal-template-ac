@@ -22,7 +22,7 @@ $avenir: "Avenir";
 @mixin h1 {
   font-family: $palatino;
   color: $white;
-  font-size: 64px;
+  font-size: 5vw;
   line-height: 70px;
   font-style: normal;
   text-align: left;
@@ -32,7 +32,7 @@ $avenir: "Avenir";
 @mixin h2 {
   font-family: $palatino;
   color: $dark-blue;
-  font-size: 48px;
+  font-size: 3.5vw;
   line-height: 55px;
   font-style: normal;
   text-align: left;
@@ -42,7 +42,7 @@ $avenir: "Avenir";
 @mixin p {
   font-family: $avenir;
   color: $black;
-  font-size: 16px;
+  font-size: 1.5vw;
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
@@ -50,7 +50,7 @@ $avenir: "Avenir";
   font-weight: lighter;
 }
 @mixin buttonPrimary {
-  font-size: 21px;
+  font-size: 1.8vw;
   line-height: 30px;
   font-family: $avenir;
   height: 45px;
@@ -76,7 +76,7 @@ $avenir: "Avenir";
 }
 
 @mixin buttonSecondary {
-  font-size: 18px;
+  font-size: 1.6vw;
   line-height: 30px;
   font-family: $avenir;
   height: 40px;
@@ -103,7 +103,7 @@ $avenir: "Avenir";
 
 @mixin h3 {
   color: $white;
-  font-size: 18px;
+  font-size: 1.6vw;
   font-family: $avenir;
   text-align: left;
   line-height: 32px;
@@ -119,7 +119,7 @@ body {
   box-sizing: border-box;
   background-color: $white;
 
-  @media only screen and (min-width: 481px) {
+  @media only screen and (min-width: 700px) {
     .landing-page-wrapper {
       header {
         display: flex;
@@ -201,7 +201,7 @@ body {
                 font-family: $avenir;
                 text-transform: capitalize;
                 text-decoration: none;
-                font-size: 16px;
+                font-size: 1.5vw;
                 display: inline-block;
 
                 &::after {
@@ -269,10 +269,11 @@ body {
 
             img {
               height: auto;
-              width: 100%;
+              width: 80%;
               position: relative;
               left: 50%;
               transform: translateX(-50%);
+              object-fit: cover;
             }
           }
 
@@ -342,7 +343,7 @@ body {
               h4 {
                 font-family: $palatino;
                 color: $dark-blue;
-                font-size: 24px;
+                font-size: 2vw;
                 line-height: 32px;
                 margin: 0;
                 font-weight: lighter;
@@ -414,7 +415,7 @@ body {
                 font-family: $avenir;
                 font-weight: 400;
                 font-style: normal;
-                font-size: 16px;
+                font-size: 1.5vw;
                 line-height: 26.4px;
                 display: flex;
                 align-items: center;
@@ -609,7 +610,7 @@ body {
 
             h2 {
               @include h2;
-              font-size: 24px;
+              font-size: 1.5vw;
               text-transform: capitalize;
             }
             ul {
@@ -627,7 +628,7 @@ body {
                   font-family: $avenir;
                   font-weight: 400;
                   font-style: normal;
-                  font-size: 16px;
+                  font-size: 1.5vw;
                   line-height: 26.4px;
                   display: flex;
                   align-items: center;
@@ -654,15 +655,16 @@ body {
 
         p {
           @include p;
-          color: $white;
+          color: $white !important;
           text-align: right;
           padding: 0 30px;
+          text-decoration: none !important;
         }
       }
     }
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 699px) {
     .landing-page-wrapper {
       width: 100vw;
       header {
@@ -763,7 +765,7 @@ body {
             display: inline;
             color: $bronze;
             font-weight: lighter;
-            font-size: 36px;
+            font-size: 2.5vw;
             line-height: 1;
             text-decoration: none;
             font-family: $avenir;
@@ -804,12 +806,12 @@ body {
 
           h1 {
             @include h1;
-            font-size: 36px;
+            font-size: 2.5vw;
           }
 
           h3 {
             @include h3;
-            font-size: 16px;
+            font-size: 1.5vw;
           }
           button {
             display: none;
@@ -852,7 +854,7 @@ body {
             h2 {
               @include h2;
               margin: 0;
-              font-size: 36px;
+              font-size: 2.5vw;
             }
 
             p {
@@ -876,7 +878,7 @@ body {
           @include h2;
           text-align: left;
           margin: 0;
-          font-size: 36px;
+          font-size: 2.5vw;
           margin: 0 45px;
         }
 
@@ -914,7 +916,7 @@ body {
               h4 {
                 font-family: $palatino;
                 color: $white;
-                font-size: 24px;
+                font-size: 2vw;
                 line-height: 32px;
                 margin: 0;
               }
@@ -938,7 +940,7 @@ body {
         #mobile {
           @include h2;
           margin: 0;
-          font-size: 36px;
+          font-size: 2.5vw;
           margin-left: 45px;
         }
 
@@ -973,7 +975,7 @@ body {
                 font-family: $avenir;
                 font-weight: 400;
                 font-style: normal;
-                font-size: 16px;
+                font-size: 1.5vw;
                 line-height: 26.4px;
                 display: flex;
                 align-items: center;
@@ -1017,7 +1019,7 @@ body {
           margin: 0 45px;
           h1 {
             @include h1;
-            font-size: 36px;
+            font-size: 2.5vw;
             line-height: 48px;
           }
           p {
@@ -1054,7 +1056,7 @@ body {
             z-index: 1111;
             h2 {
               @include h2;
-              font-size: 24px;
+              font-size: 2vw;
               text-transform: capitalize;
             }
 
@@ -1070,7 +1072,7 @@ body {
 
             h2 {
               @include h2;
-              font-size: 24px;
+              font-size: 2vw;
               text-transform: capitalize;
             }
             ul {
@@ -1088,7 +1090,7 @@ body {
                   font-family: $avenir;
                   font-weight: 400;
                   font-style: normal;
-                  font-size: 16px;
+                  font-size: 1.5vw;
                   line-height: 26.4px;
                   display: flex;
                   align-items: center;
@@ -1113,8 +1115,9 @@ body {
 
         p {
           @include p;
-          color: $white;
+          color: $white !important;
           text-align: left;
+          text-decoration: none !important;
         }
       }
     }

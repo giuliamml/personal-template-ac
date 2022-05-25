@@ -1,17 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Avv. Augusto Cassini</title>
+</head>
+<body>
+  <main class="landing-page-wrapper">
+    <header>
+      <ul>
+        <li>
+          <a href="tel:0434084078">
+            <img src="./images/icons/phone.png" alt="" />
+            0434.084078
+          </a>
+        </li>
+        <li>
+          <a href="mailto:augusto.cassini@gmail.com?subject=Richiesta di consulenza">
+            <img src="./images/icons/email.png" alt="" />
+            augusto.cassini@gmail.com</a>
+        </li>
+      </ul>
+    </header>
 
-    <title>Avv. Augusto Cassini</title>
-  </head>
-  <body>
-    <div class="landing-page-wrapper">
-      <header>
+    <script src="./burgerMenu.js"></script>
+
+    <section class="hero-section">
+      <div class="overlay"></div>
+
+      <nav class="navigation">
         <ul>
+          <li>
+            <a href="#chi-sono">chi sono</a>
+          </li>
+          <li><a href="#aree-di-competenza">aree di compotenza</a></li>
+          <li><a href="#contatti">contatti</a></li>
+        </ul>
+      </nav>
+
+      <section class="hero-text-wrapper">
+        <h1>
+          Avvocato <br />
+          Augusto Cassini
+        </h1>
+        <h3><q>Ius est ars boni et aequi</q> - Celso, II secolo d.C</h3>
+        <h3>
+          <q>Il diritto è l'arte di ciò che è buono ed equo</q>
+          - Celso, II secolo d.C
+        </h3>
+        <button>
+          <a href="mailto:augusto.cassini@gmail.com?subject=Richiesta di consulenza">richiedi consulenza</a>
+        </button>
+      </section>
+    </section>
+    <section class="intro-section" id="chi-sono">
+      <div class="intro-section-content">
+        <div>
+          <img src="./images/portrait.png" alt="" />
+        </div>
+
+        <div class="intro-section-text">
+          <h2>Avvocato Augusto Cassini</h2>
+          <p>
+            Mi sono laureato con 106/110 nel 1995 discutendo una tesi di diritto dell'esecuzione civile su
+            “l'Espropriazione dei beni indivisi” con la prof. Annalisa Lorenzetto Peserico.
+            Mi dedico al diritto civile ed in particolare al campo del diritto di famiglia, delle successioni, dei
+            diritti reali, delle obbligazioni e dei contratti, del recupero dei crediti e delle procedure esecutive.
+            Sono amministratore di sostegno dal 2013.
+            Sono iscritto all'Albo Speciale della Cassazione e delle Giurisdizioni Superiori.
+            Corrispondo in inglese.
+          </p>
+          <button>
+            <a href="mailto:augusto.cassini@gmail.com?subject=Richiesta di consulenza">contattami</a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="competences-section" id="aree-di-competenza">
+      <h2>Aree di Competenza</h2>
+      <div class="competences-wrapper">
+        <div class="single-competence-wrapper">
+          <div class="competence-icon">
+            <img src="./images/icons/scale.png" alt="" />
+          </div>
+          <div class="competence-text">
+            <h4>Diritto Civile</h4>
+            <p>Mi occupo di Successioni,
+              Diritti reali,
+              Obbligazioni e Contratti,
+              Recupero Crediti
+              Procedure Esecutive</p>
+          </div>
+        </div>
+        <div class="single-competence-wrapper">
+          <div class="competence-icon">
+            <img src="./images/icons/law.png" alt="" />
+          </div>
+          <div class="competence-text">
+            <h4>Diritto Amministrativo</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="single-competence-wrapper">
+          <div class="competence-icon">
+            <img src="./images/icons/family.png" alt="" />
+          </div>
+          <div class="competence-text">
+            <h4>Diritto di Famiglia</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="location-section" id="contatti">
+      <h2 id="mobile">Recapiti</h2>
+
+      <div>
+        <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=12.655340731143953%2C45.961090381256476%2C12.65888124704361%2C45.962747922551095&amp;layer=mapnik&amp;marker=45.961919158102496%2C12.65711098909378"></iframe>
+      </div>
+
+      <div class="information">
+        <h2>Recapiti</h2>
+        <ul>
+          <li>
+            <a href="">
+              <img src="./images/icons/location.png" alt="" />
+              Via Beato Odorico n. 2/d <br />33170 Pordenone
+            </a>
+          </li>
           <li>
             <a href="tel:0434084078">
               <img src="./images/icons/phone.png" alt="" />
@@ -19,138 +139,100 @@
             </a>
           </li>
           <li>
-            <a href="mailto:augusto.cassini@gmail.com">
+            <a href="mailto:augusto.cassini@gmail.com?subject=Richiesta di consulenza">
               <img src="./images/icons/email.png" alt="" />
-              augusto.cassini@gmail.com</a
-            >
+              augusto.cassini@gmail.com</a>
           </li>
         </ul>
-      </header>
+      </div>
+    </section>
 
-      <!-- <div class="burger-menu">
-        <div id="burger-menu-container" onclick="menuOpen()">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
+    <section class="customer-revs">
+      <div class="overlay"></div>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- here goes what customers say -->
+        <h2>Recensioni</h2>
+
+        <!-- Full-width slides/quotes -->
+        <div class="mySlides">
+          <div class="mySlidesContainer">
+            <q>
+              Curabitur ligula augue, lobortis in interdum nec, dignissim vel
+              arcu. Donec semper aliquet mattis. Curabitur convallis urna
+              congue viverra elementum.
+            </q>
+          </div>
+          <p class="author">Joe Bloggs</p>
         </div>
 
-        <div class="burger-menu-items" id="homepage">
-          <ul>
-            <li><a href="./chi-sono/">Chi sono </a></li>
-            <li><a href="./aree-di-competenza/">Aree di competenza </a></li>
-            <li><a href="./contatti/">Contatti</a></li>
-          </ul>
+        <div class="mySlides">
+          <div class="mySlidesContainer">
+            <q>
+              Vivamus est felis, tempor sed mauris ac, malesuada sollicitudin
+              ipsum. Etiam nec ullamcorper nibh, ac pretium sapien. Donec
+              pharetra sollicitudin ligula, sit amet ornare nisi vestibulum
+              et.
+            </q>
+          </div>
+          <p class="author">Jane Doe</p>
         </div>
-      </div> -->
 
-      <script src="./burgerMenu.js"></script>
+        <div class="mySlides">
+          <div class="mySlidesContainer">
+            <q>
+              Mauris malesuada, ex at volutpat euismod, velit diam placerat
+              lacus, eu rhoncus enim metus ultricies nisi. Mauris pharetra
+              tristique nisl.</q>
+          </div>
+          <p class="author">John Doe</p>
+        </div>
 
-      <div class="hero-section">
+        <!-- Next/prev buttons -->
+        <a class="prev">&#10216;</a>
+        <a class="next">&#10217;</a>
+      </div>
+      <!-- END slidehow-container -->
+
+      <!-- Dots/bullets/indicators -->
+      <div class="dot-container">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </section>
+    <script src="carousel.js"></script>
+    <div class="message-section">
+      <div class="overlay"></div>
+
+      <div class="content">
+        <h1>Bisogno di una consulenza?</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
+          ab provident vel modi qui exercitationem deserunt nesciunt ipsum
+          ipsam. Accusamus eveniet exercitationem iure ipsam, ducimus saepe
+          nisi voluptate iste aspernatur.
+        </p>
+        <button>
+          <a href="mailto:augusto.cassini@gmail.com?subject=Richiesta di consulenza">richiedi consulenza</a>
+        </button>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="navigation">
         <div class="overlay"></div>
+        <div class="location">
+          <h2>Sede</h2>
+          <p>
+            Via Beato Odorico n. 2/d <br />
+            33170 Pordenone
+          </p>
+        </div>
 
-        <div class="navigation">
+        <div class="contacts">
+          <h2>contatti</h2>
           <ul>
-            <li>
-              <a href="#chi-sono">chi sono</a>
-            </li>
-            <li><a href="#aree-di-competenza">aree di compotenza</a></li>
-            <li><a href="#contatti">contatti</a></li>
-          </ul>
-        </div>
-
-        <div class="hero-text-wrapper">
-          <h1>
-            Avvocato <br />
-            Augusto Cassini
-          </h1>
-          <h3><q>Ius est ars boni et aequi</q> - Celso, II secolo d.C</h3>
-          <h3>
-            <q>Il diritto è l'arte di ciò che è buono ed equo</q>
-            - Celso, II secolo d.C
-          </h3>
-          <button>
-            <a href="mailto:augusto.cassini@gmail.com">richiedi consulenza</a>
-          </button>
-        </div>
-      </div>
-
-      <div class="intro-section" id="chi-sono">
-        <div class="intro-section-content">
-          <div>
-            <img src="./images/portrait.png" alt="" />
-          </div>
-
-          <div class="intro-section-text">
-            <h2>Avvocato Augusto Cassini</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Blanditiis, in, repudiandae necessitatibus pariatur alias ullam,
-              enim eaque unde nulla totam dolor. Aliquam ab vel maxime at
-              veniam. Consectetur, voluptatibus aliquam!
-            </p>
-            <button>
-              <a href="mailto:augusto.cassini@gmail.com">contattami</a>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="competences-section" id="aree-di-competenza">
-        <h2>Aree di Competenza</h2>
-        <div class="competences-wrapper">
-          <div class="single-competence-wrapper">
-            <div class="competence-icon">
-              <img src="./images/icons/scale.png" alt="" />
-            </div>
-            <div class="competence-text">
-              <h4>Diritto Civile</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="single-competence-wrapper">
-            <div class="competence-icon">
-              <img src="./images/icons/law.png" alt="" />
-            </div>
-            <div class="competence-text">
-              <h4>Diritto Amministrativo</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-          <div class="single-competence-wrapper">
-            <div class="competence-icon">
-              <img src="./images/icons/family.png" alt="" />
-            </div>
-            <div class="competence-text">
-              <h4>Diritto di Famiglia</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <section class="location-section" id="contatti">
-        <h2 id="mobile">Recapiti</h2>
-
-        <div>
-          <iframe
-            width="425"
-            height="350"
-            frameborder="0"
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
-            src="https://www.openstreetmap.org/export/embed.html?bbox=12.655340731143953%2C45.961090381256476%2C12.65888124704361%2C45.962747922551095&amp;layer=mapnik&amp;marker=45.961919158102496%2C12.65711098909378"
-          ></iframe>
-        </div>
-
-        <div class="information">
-          <h2>Recapiti</h2>
-          <ul>
-            <li>
-              <a href="">
-                <img src="./images/icons/location.png" alt="" />
-                Via Beato Odorico n. 2/d <br />33170 Pordenone
-              </a>
-            </li>
             <li>
               <a href="tel:0434084078">
                 <img src="./images/icons/phone.png" alt="" />
@@ -158,121 +240,17 @@
               </a>
             </li>
             <li>
-              <a href="mailto:augusto.cassini@gmail.com">
+              <a href="mailto:augusto.cassini@gmail.com?subject=Richiesta di consulenza">
                 <img src="./images/icons/email.png" alt="" />
-                augusto.cassini@gmail.com</a
-              >
+                augusto.cassini@gmail.com</a>
             </li>
           </ul>
         </div>
-      </section>
-
-      <section class="customer-revs">
-        <div class="overlay"></div>
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
-          <!-- here goes what customers say -->
-          <h2>Recensioni</h2>
-
-          <!-- Full-width slides/quotes -->
-          <div class="mySlides">
-            <div class="mySlidesContainer">
-              <q>
-                Curabitur ligula augue, lobortis in interdum nec, dignissim vel
-                arcu. Donec semper aliquet mattis. Curabitur convallis urna
-                congue viverra elementum.
-              </q>
-            </div>
-            <p class="author">Joe Bloggs</p>
-          </div>
-
-          <div class="mySlides">
-            <div class="mySlidesContainer">
-              <q>
-                Vivamus est felis, tempor sed mauris ac, malesuada sollicitudin
-                ipsum. Etiam nec ullamcorper nibh, ac pretium sapien. Donec
-                pharetra sollicitudin ligula, sit amet ornare nisi vestibulum
-                et.
-              </q>
-            </div>
-            <p class="author">Jane Doe</p>
-          </div>
-
-          <div class="mySlides">
-            <div class="mySlidesContainer">
-              <q>
-                Mauris malesuada, ex at volutpat euismod, velit diam placerat
-                lacus, eu rhoncus enim metus ultricies nisi. Mauris pharetra
-                tristique nisl.</q
-              >
-            </div>
-            <p class="author">John Doe</p>
-          </div>
-
-          <!-- Next/prev buttons -->
-          <a class="prev">&#10216;</a>
-          <a class="next">&#10217;</a>
-        </div>
-        <!-- END slidehow-container -->
-
-        <!-- Dots/bullets/indicators -->
-        <div class="dot-container">
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </div>
-      </section>
-      <script src="carousel.js"></script>
-      <div class="message-section">
-        <div class="overlay"></div>
-
-        <div class="content">
-          <h1>Bisogno di una consulenza?</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam
-            ab provident vel modi qui exercitationem deserunt nesciunt ipsum
-            ipsam. Accusamus eveniet exercitationem iure ipsam, ducimus saepe
-            nisi voluptate iste aspernatur.
-          </p>
-          <button>
-            <a href="mailto:augusto.cassini@gmail.com">richiedi consulenza</a>
-          </button>
-        </div>
       </div>
-
-      <div class="footer">
-        <div class="navigation">
-          <div class="overlay"></div>
-          <div class="location">
-            <h2>Sede</h2>
-            <p>
-              Via Beato Odorico n. 2/d <br />
-              33170 Pordenone
-            </p>
-          </div>
-
-          <div class="contacts">
-            <h2>contatti</h2>
-            <ul>
-              <li>
-                <a href="tel:0434084078">
-                  <img src="./images/icons/phone.png" alt="" />
-                  0434.084078
-                </a>
-              </li>
-              <li>
-                <a href="mailto:augusto.cassini@gmail.com">
-                  <img src="./images/icons/email.png" alt="" />
-                  augusto.cassini@gmail.com</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="copyrights">
-        <p>© Augusto Cassini - P. IVA 01377990930</p>
-      </div>
+    </footer>
+    <div class="copyrights">
+      <p>© Augusto Cassini - P. IVA 01377990930</p>
     </div>
-  </body>
+  </main>
+</body>
 </html>
