@@ -121,7 +121,7 @@ body {
   body .landing-page-wrapper .hero-section .hero-text-wrapper h1 {
     font-family: "Palatino";
     color: #fff;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 70px;
     font-style: normal;
     text-align: left;
@@ -139,8 +139,8 @@ body {
     font-style: italic;
   }
   body .landing-page-wrapper .hero-section .hero-text-wrapper button {
-    font-size: 1.8vw;
-    line-height: 30px;
+    font-size: 1.4vw;
+    line-height: 1.8;
     font-family: "Avenir";
     height: 45px;
     width: max-content;
@@ -204,16 +204,16 @@ body {
   body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text p {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
   }
   body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text button {
-    font-size: 1.6vw;
-    line-height: 30px;
+    font-size: 1.4vw;
+    line-height: 1.6;
     font-family: "Avenir";
     height: 40px;
     width: max-content;
@@ -293,10 +293,10 @@ body {
   body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-text p {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
   }
@@ -310,10 +310,10 @@ body {
   body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper:hover .competence-text p {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
     color: #fff;
@@ -404,7 +404,7 @@ body {
   body .landing-page-wrapper .message-section .content h1 {
     font-family: "Palatino";
     color: #fff;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 70px;
     font-style: normal;
     text-align: left;
@@ -413,17 +413,17 @@ body {
   body .landing-page-wrapper .message-section .content p {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
     color: #fff;
   }
   body .landing-page-wrapper .message-section .content button {
-    font-size: 1.6vw;
-    line-height: 30px;
+    font-size: 1.4vw;
+    line-height: 1.6;
     font-family: "Avenir";
     height: 40px;
     width: max-content;
@@ -493,10 +493,10 @@ body {
   body .landing-page-wrapper .customer-revs .slideshow-container .mySlides .mySlidesContainer q {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
     font-size: 18px;
@@ -504,10 +504,10 @@ body {
   body .landing-page-wrapper .customer-revs .slideshow-container .mySlides p {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
     text-align: right;
@@ -589,10 +589,10 @@ body .landing-page-wrapper .customer-revs .slideshow-container .next:hover {
   body .landing-page-wrapper .footer .navigation .location p {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
   }
@@ -619,6 +619,7 @@ body .landing-page-wrapper .customer-revs .slideshow-container .next:hover {
     list-style: none;
     display: flex;
     flex-direction: column;
+    padding: 5px 0;
   }
   body .landing-page-wrapper .footer .navigation .contacts ul li a {
     color: #fff;
@@ -628,8 +629,8 @@ body .landing-page-wrapper .customer-revs .slideshow-container .next:hover {
     font-family: "Avenir";
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5vw;
-    line-height: 26.4px;
+    font-size: 1.2vw;
+    line-height: 1.2;
     display: flex;
     align-items: center;
     color: #272b2e;
@@ -649,10 +650,10 @@ body .landing-page-wrapper .customer-revs .slideshow-container .next:hover {
   body .landing-page-wrapper .copyrights p {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
     color: #fff !important;
@@ -791,12 +792,13 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
   body .landing-page-wrapper .hero-section .hero-text-wrapper h1 {
     font-family: "Palatino";
     color: #fff;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 70px;
     font-style: normal;
     text-align: left;
     font-weight: lighter;
-    font-size: 2.5vw;
+    line-height: 1.5;
+    font-size: 10vw;
   }
   body .landing-page-wrapper .hero-section .hero-text-wrapper h3 {
     color: #fff;
@@ -804,7 +806,8 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     font-family: "Avenir";
     text-align: left;
     line-height: 32px;
-    font-size: 1.5vw;
+    font-size: 3vw;
+    line-height: 1.6;
   }
   body .landing-page-wrapper .hero-section .hero-text-wrapper h3 q {
     font-style: italic;
@@ -842,6 +845,7 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 20px;
   }
   body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text h2 {
     font-family: "Palatino";
@@ -852,21 +856,23 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     text-align: left;
     font-weight: lighter;
     margin: 0;
-    font-size: 2.5vw;
+    font-size: 5vw;
   }
   body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text p {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
+    font-size: 3vw;
+    margin-top: 0;
   }
   body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text button {
-    font-size: 1.6vw;
-    line-height: 30px;
+    font-size: 1.4vw;
+    line-height: 1.6;
     font-family: "Avenir";
     height: 40px;
     width: max-content;
@@ -877,6 +883,7 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 4vw;
   }
   body .landing-page-wrapper .intro-section .intro-section-content .intro-section-text button:hover {
     color: #bc9d71;
@@ -903,9 +910,8 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     text-align: left;
     font-weight: lighter;
     text-align: left;
-    margin: 0;
-    font-size: 2.5vw;
     margin: 0 45px;
+    font-size: 5vw;
   }
   body .landing-page-wrapper .competences-section .competences-wrapper {
     display: flex;
@@ -939,20 +945,21 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
   body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-text h4 {
     font-family: "Palatino";
     color: #fff;
-    font-size: 2vw;
-    line-height: 32px;
+    font-size: 5vw;
+    line-height: 1.5;
     margin: 0;
   }
   body .landing-page-wrapper .competences-section .competences-wrapper .single-competence-wrapper .competence-text p {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
     color: #fff;
+    font-size: 3vw;
   }
   body .landing-page-wrapper .location-section {
     position: relative;
@@ -971,8 +978,8 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     text-align: left;
     font-weight: lighter;
     margin: 0;
-    font-size: 2.5vw;
     margin-left: 45px;
+    font-size: 5vw;
   }
   body .landing-page-wrapper .location-section div {
     display: flex;
@@ -1004,8 +1011,8 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     font-family: "Avenir";
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5vw;
-    line-height: 26.4px;
+    font-size: 3vw;
+    line-height: 1.2;
     display: flex;
     align-items: center;
     position: relative;
@@ -1042,28 +1049,29 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
   body .landing-page-wrapper .message-section .content h1 {
     font-family: "Palatino";
     color: #fff;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 70px;
     font-style: normal;
     text-align: left;
     font-weight: lighter;
-    font-size: 2.5vw;
+    font-size: 5vw;
     line-height: 48px;
   }
   body .landing-page-wrapper .message-section .content p {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
     color: #fff;
+    font-size: 3vw;
   }
   body .landing-page-wrapper .message-section .content button {
-    font-size: 1.6vw;
-    line-height: 30px;
+    font-size: 1.4vw;
+    line-height: 1.6;
     font-family: "Avenir";
     height: 40px;
     width: max-content;
@@ -1074,6 +1082,7 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 4vw;
   }
   body .landing-page-wrapper .message-section .content button:hover {
     color: #bc9d71;
@@ -1113,18 +1122,20 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     font-style: normal;
     text-align: left;
     font-weight: lighter;
-    font-size: 2vw;
     text-transform: capitalize;
+    font-size: 5vw;
   }
   body .landing-page-wrapper .footer .navigation .location p {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
+    font-size: 3vw;
+    line-height: 1.5;
   }
   body .landing-page-wrapper .footer .navigation .contacts {
     margin: 0 20px;
@@ -1139,7 +1150,7 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     font-style: normal;
     text-align: left;
     font-weight: lighter;
-    font-size: 2vw;
+    font-size: 5vw;
     text-transform: capitalize;
   }
   body .landing-page-wrapper .footer .navigation .contacts ul {
@@ -1149,6 +1160,7 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     list-style: none;
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
   }
   body .landing-page-wrapper .footer .navigation .contacts ul li a {
     color: #fff;
@@ -1158,8 +1170,8 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
     font-family: "Avenir";
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5vw;
-    line-height: 26.4px;
+    font-size: 3vw;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     color: #272b2e;
@@ -1177,10 +1189,10 @@ body .landing-page-wrapper .burger-menu #burger-menu-container .bar3 {
   body .landing-page-wrapper .copyrights p {
     font-family: "Avenir";
     color: #272b2e;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     font-style: normal;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 1.5;
     text-align: left;
     font-weight: lighter;
     color: #fff !important;
